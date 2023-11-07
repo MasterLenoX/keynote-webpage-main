@@ -29,12 +29,46 @@
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  height: 100%;
+  height: 500vh;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover; 
-  background-image: url('../images/waves-background.png');
-  background: rgba(255, 255, 255, 0.901);  
+  background-image: linear-gradient(to bottom, #ffffff, #f7f7fd, #eff0fb, #e5e9f9, #dae2f7, #c8d4ef, #b6c6e8, #a4b8e0, #89a0d0, #6e89c0, #5372b0, #355ca0);  
+}*/
+
+
+/* .banner-area{
+  position: relative; 
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.about-area{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 110vh;
+
+}
+
+.review-area{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 110vh;
 } */
 
 /* carousel custom css */
@@ -317,12 +351,14 @@ body {
   /* align-items: center; */
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-around;
   width: 100%;
-  height: 20vh;
+  height: 50vh;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover; 
-  background-image: url('../images/waves-background.png');
+  /* background-image: linear-gradient(to bottom, #ffffff, #fcfcff, #f9faff, #f6f7ff, #f2f5ff, #e6ebfa, #d9e2f4, #cbd9ef, #b1c7e3, #95b6d7, #78a5ca, #5695bd); */
+  /* background-image: url('../images/waves-background.png'); */
   /* background: rgba(124, 188, 234, 0.519); */
 }
 
